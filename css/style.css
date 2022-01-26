@@ -1,26 +1,15 @@
 :root {
   --body-main-color: #212121;
   --header-border-color: #ececec;
-  --footer-background-color: #2f303a;
+  --main-background-color: #2f303a;
   --logo-color-1: #000000;
   --secondary-text-color: #ffffff;
   --main-hover-color: #2196f3;
-  --contacts-color: #757575;
-  --hero-background-color: #2f303a;
-  --hero-btn-background-color: #2196f3;
-  --skills-thumb-color: #f5f4fa;
-  --skills-description-color: #757575;
-  --command-background-color: #f5f4fa;
-  --command-position-color: #757575;
-  --command-icon-color: #afb1b8;
-  --clients-title-color: #212121;
-  --clients-logo-color: #afb1b8;
-  --clients-logo-hover-color: #2196f3;
-  --portfolio-btn-background-color-1: #f5f4fa;
-  --portfolio-btn-background-color-2: #2196f3;
-  --portfolio-type-color: #757575;
+  --third-priority-color: #757575;
+  --secondary-background-color: #f5f4fa;
+  --icon-color: #afb1b8;
   --portfolio-border-color: #eeeeee;
-  --adress-contacts-color: rgba(255, 255, 255, 0.6);
+  --adress-third-priority-color: rgba(255, 255, 255, 0.6);
   --footer-links-bcgr-color: rgba(255, 255, 255, 0.1);
 }
 /*--------------------------global styles--------------------------*/
@@ -60,7 +49,7 @@ body {
 }
 
 footer {
-  background-color: var(--footer-background-color);
+  background-color: var(--main-background-color);
 }
 
 .button {
@@ -169,8 +158,8 @@ footer {
   font-size: 14px;
   line-height: calc(16 / 14);
   letter-spacing: 0.02em;
-  color: var(--contacts-color);
-  fill: var(--contacts-color);
+  color: var(--third-priority-color);
+  fill: var(--third-priority-color);
 }
 
 /*--------------------------hero-section--------------------------*/
@@ -187,7 +176,7 @@ footer {
   background-repeat: no-repeat;
   background-position: center;
   background-size: auto;
-  background-color: var(--hero-background-color);
+  background-color: var(--main-background-color);
   text-align: center;
 }
 
@@ -215,7 +204,7 @@ footer {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-  background-color: var(--hero-btn-background-color);
+  background-color: var(--main-hover-color);
   color: var(--secondary-text-color);
 }
 /*--------------------------skills section--------------------------*/
@@ -227,7 +216,7 @@ footer {
   margin-bottom: 30px;
   width: 270px;
   height: 120px;
-  background-color: var(--skills-thumb-color);
+  background-color: var(--secondary-background-color);
 }
 
 .skills-list {
@@ -251,7 +240,7 @@ footer {
   font-size: 14px;
   line-height: calc(24 / 14);
   letter-spacing: 0.03em;
-  color: var(--skills-description-color);
+  color: var(--third-priority-color);
 }
 /*--------------------------description section--------------------------*/
 
@@ -273,7 +262,7 @@ footer {
 /*--------------------------command section--------------------------*/
 
 .command-section {
-  background-color: var(--command-background-color);
+  background-color: var(--secondary-background-color);
 }
 
 .command-list {
@@ -311,7 +300,7 @@ footer {
   line-height: calc(19 / 16);
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--command-position-color);
+  color: var(--third-priority-color);
 }
 
 .command-links {
@@ -331,7 +320,7 @@ footer {
   justify-content: center;
   width: 44px;
   height: 44px;
-  fill: var(--command-icon-color);
+  fill: var(--icon-color);
 }
 
 .command-icon:hover,
@@ -352,7 +341,7 @@ footer {
   line-height: 42px;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--clients-title-color);
+  color: var(--body-main-color);
 }
 
 .clients-item:not(:last-child) {
@@ -373,7 +362,7 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
-  fill: var(--clients-logo-color);
+  fill: var(--icon-color);
   width: 170px;
   height: 92px;
 }
@@ -417,13 +406,13 @@ footer {
   text-align: center;
   letter-spacing: 0.03em;
   color: inherit;
-  background-color: var(--portfolio-btn-background-color-1);
+  background-color: var(--secondary-background-color);
 }
 
 .portfolio-btn:focus,
 .portfolio-btn:hover {
   cursor: pointer;
-  background-color: var(--portfolio-btn-background-color-2);
+  background-color: var(--main-hover-color);
   color: var(--secondary-text-color);
 }
 
@@ -465,7 +454,7 @@ footer {
   font-size: 16px;
   line-height: calc(30 / 16);
   letter-spacing: 0.03em;
-  color: var(--portfolio-type-color);
+  color: var(--third-priority-color);
 }
 
 /*--------------------------footer--------------------------*/
@@ -516,7 +505,7 @@ footer {
   font-size: 14px;
   line-height: calc(24 / 14);
   letter-spacing: 0.03em;
-  color: var(--adress-contacts-color);
+  color: var(--adress-third-priority-color);
 }
 
 .footer-links {
