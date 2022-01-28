@@ -141,7 +141,7 @@ footer {
 }
 
 .contacts:hover,
-.contacts:focus * {
+.contacts:focus {
   color: var(--main-hover-color);
   fill: var(--main-hover-color);
 }
